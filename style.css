@@ -11,6 +11,7 @@ body{
     width: 80%;
     margin: auto;
     overflow: hidden;
+    
 }
 .home{
     background-image: url("background.png");
@@ -23,7 +24,8 @@ header{
     padding-top: 30px;
     min-height: 70px;
     border-radius: #e8491d 3px solid;
-    padding-left: 350px;
+    width: 100%;
+    
 }
 
 header a{
@@ -36,22 +38,54 @@ header a{
 header ul{
     margin: 0;
     padding: 0;
+    display: inline-block;
+}
+.navbar{
+    text-align: center;
 }
 header li{
     float: left;
     display: inline;
     padding: 0 40px 0 40px;
+    
 }
 .container h1{
     font-family: 'Coda Caption', sans-serif;
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
     color: #ffffff;
     margin-bottom: 0;
 }
-.container p{
+.pa{
     font-family: 'Inconsolata', monospace;
     color: #ffffff;
     font-size:20px ;
     text-align: center;
 }
+#showcase{
+    text-align: center;
+}
+#aboutme{
+    margin-top: 20px;
+    height: 300px;
+    color: #ffffff;
+    background-color:#5cdb95;
+    font-family: 'Inconsolata', monospace;
+    
+}
+.container h1 span{
+    color:#5cdb95;
+    font-size: 100px;
+}
+.container__image{
+    float: left;
+    margin-top: 20px;
+    
+}
+.container__text{
+    color: black;
+    font-size:20px;
+    margin-top: 50px;
+    padding-left:350px;
+}
+
