@@ -302,13 +302,13 @@ input[type=submit] {
   @media only screen and (max-width: 558px) {
     .glow-on-hover{
         margin-top: 10px;
-        font-size: 15px;
+        font-size: 18px;
     }
     .pa{
-        font-size: 15px;
+        font-size: 18px;
     }
     .container h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     .container h1 span{
         font-size: 80px;
