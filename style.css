@@ -118,8 +118,9 @@ header li{
 .content h3{
     border-bottom: 2px solid rgb(94, 93, 93);
     margin-right: 42%;
-    opacity: 60%;
-    
+    opacity: 60;
+    margin-top: 10px;
+    margin-bottom: 25px;
     margin-left: 42%;
 }
 
