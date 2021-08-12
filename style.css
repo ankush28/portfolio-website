@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Spinnaker', sans-serif;
+    background-color: #155263;
+}
+#particles-js{
+    height: 200vh;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    
+}
+.navbar ul{
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;   
+}
+.navbar a{
+    text-decoration: none;
+    color: #B9BBDF;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 21px;
+}
+.navbar a:hover{
+    color: rgb(255, 72, 0);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.main{
+    height: 86vh;
+    width: 100%;
+    margin-top: 74px;
+    position: absolute;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.image img{
+    width: 380px;
+    float: right;
+}
+.content{
+    width: 100%;
+    margin-top: 40px;
+    font-size: 30px;
+    padding-left:100px;
+    padding-top: 100px;
+    color: 
+    #DFF4F3; 
+}
+span{
+    color: rgb(255, 72, 0);
+}
+
+button{
+    font-size: 22px;
+    font-family: 'Spinnaker', sans-serif;
+    padding: 10px 35px;
+    background-color: #155263;
+    border-width: unset;
+    border-color: rgb(255, 72, 0);
+    color: rgb(255, 72, 0);
+    border-radius: 8px;
+}
+.btnn{
+    display: flex;
+    justify-content: space-evenly;
+}
+button:hover{
+    color: white;
+    background-color: rgb(255, 72, 0);
+}
+
+.about{
+    height: 100vh;
+    margin-top: 92vh;
+    position: absolute;
+   
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+.aboutcontent{
+    margin-right: 50px;
+}
+.aboutcontent h1{
+    text-align: right;
+    font-size: 50px;
+    color: #DFF4F3;
+    padding-right: 50px;
+}
+.aboutcontent p{
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #B9BBDF;
+}
+.img2{
+    width: 1000px;
+}
+.img2 img{
+    width: 380px;
+}
+
+hr{
+    background-color:rgb(255, 72, 0);
+    height:2px;
+    border-width:0;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.skills{
+    height: 200px; 
+    margin-left: 20px;
+}
+.skills p{
+    padding: 0;
+    margin-left: 10px;
+}
+.skillsimg img{
+    height: 200px;
+    background-color: 
+    #ffffff56;
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+}
+
+
+
+ /* -----------------------------------------------------Mobile View ----------------------------------------------------------------*/
+ @media only screen and (max-width: 1024px){
+     .main{
+         height: 50vh;
+     }
+     .about{
+         margin-top: 70vh;
+         height: 40vh;
+     }
+     .btnn{
+        margin-top: 50px;
+    }
+ }
+
+ @media only screen and (max-width: 900px){
+    .main{
+        height: 50vh;
+    }
+    .about{
+        margin-top: 70vh;
+        height: 40vh;
+    }
+    .image img{
+        width: 250px;
+    }
+    .content h1{
+        font-size: 50px;
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .flex-container{
+        flex-direction: column-reverse;
+
+    }
+    .btnn{
+        margin-top: 70px;
+    }
+    .img2{
+        display: none;
+    }
+    .aboutcontent{
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .aboutcontent h1{
+        text-align: center;
+        padding-right: 0;
+    }
+    .aboutcontent p{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+ }
+ @media only screen and (max-width: 500px){
+    .navbar a{
+        font-size: 16px;
+        width: unset;
+        padding: 0;
+    }
+    .navbar li{
+        padding: 8px;
+    }
+    .image img{
+        width: 200px;
+        margin-top: 0;
+    }
+    .content h1{
+        font-size: 30px;
+        width: 340px;
+    }
+    .content{
+        width: 360px;
+    }
+    button{
+        font-size: 16px;
+    }
+    .aboutcontent h1{
+        font-size:30px;
+        padding-right: 0;
+    }
+    .aboutcontent p{
+        font-size: 16px;
+
+    }
+    .skillsimg img{
+        height: 50px;
+        width: 50px;
+    }
+    .skillsimg{
+        margin-left: 30px;
+    }
+ }
+     
+
